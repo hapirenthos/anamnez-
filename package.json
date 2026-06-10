@@ -1,29 +1,31 @@
+
 {
-  "name": "react-native-expo",
+  "name": "klinik-arsiv",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "export EXPO_PACKAGER_PROXY_URL=https://${CSB_SANDBOX_ID}-8080.csb.app && expo start --port 8080",
+    "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
-    "@expo/cli": "^0.10.14",
-    "expo": "~49.0.16",
-    "expo-status-bar": "~1.7.1",
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "@react-native-picker/picker": "2.6.1",
+    "expo": "~50.0.14",
+    "expo-file-system": "~16.0.8",
+    "expo-sharing": "~11.1.0",
+    "expo-status-bar": "~1.11.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "lucide-react-native": "^0.368.0",
     "react": "18.2.0",
-    "react-native": "0.72.6",
-    "react-native-web": "~0.19.9",
-    "react-dom": "18.2.0"
+    "react-native": "0.73.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.2",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "http-proxy-middleware": "^2.0.6",
-    "qs": "^6.11.2",
-    "xdl": "^60.0.12"
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "typescript": "^5.1.3"
   },
   "private": true
 }
