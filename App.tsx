@@ -477,7 +477,7 @@ export default function HastaAnamnezMiniApp() {
 
     filesToExport.sort((a, b) => new Date(a.kimlik_gorusmeTarihi).getTime() - new Date(b.kimlik_gorusmeTarihi).getTime());
 
-    const logoHtmlBlock = logoBase64 ? `<img src="data:image/png;base64,${logoBase64}" width="40" height="40" style="position: absolute; left: 20px; top: 15px;" />` : "";
+    const logoHtmlBlock = logoBase64 ? `<img src="data:image/png;base64,${logoBase64}" width="40" height="40" style="position: absolute; left: 12px; top: 12px;" />` : "";
 
     let htmlContent = `
       <!DOCTYPE html>
