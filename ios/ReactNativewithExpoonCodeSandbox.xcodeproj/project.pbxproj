@@ -14,7 +14,7 @@
 		96905EF65AED1B983A6B3ABC /* libPods-ReactNativewithExpoonCodeSandbox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-ReactNativewithExpoonCodeSandbox.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		0922F3BB66444E49B2FDB7F9 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BC27803C164149A5CFD6C9 /* noop-file.swift */; };
+		0398AD60B3614B46BB9539D5 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF1079E1484E16ACF88023 /* noop-file.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-ReactNativewithExpoonCodeSandbox/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		D3BC27803C164149A5CFD6C9 /* noop-file.swift */ = {isa = PBXFileReference; name = "noop-file.swift"; path = "ReactNativewithExpoonCodeSandbox/noop-file.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		B1E85C611BCB4AE4980048D2 /* ReactNativewithExpoonCodeSandbox-Bridging-Header.h */ = {isa = PBXFileReference; name = "ReactNativewithExpoonCodeSandbox-Bridging-Header.h"; path = "ReactNativewithExpoonCodeSandbox/ReactNativewithExpoonCodeSandbox-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F8DF1079E1484E16ACF88023 /* noop-file.swift */ = {isa = PBXFileReference; name = "noop-file.swift"; path = "ReactNativewithExpoonCodeSandbox/noop-file.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
+		F226B712F6134A35A323FBF7 /* ReactNativewithExpoonCodeSandbox-Bridging-Header.h */ = {isa = PBXFileReference; name = "ReactNativewithExpoonCodeSandbox-Bridging-Header.h"; path = "ReactNativewithExpoonCodeSandbox/ReactNativewithExpoonCodeSandbox-Bridging-Header.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				D3BC27803C164149A5CFD6C9 /* noop-file.swift */,
-				B1E85C611BCB4AE4980048D2 /* ReactNativewithExpoonCodeSandbox-Bridging-Header.h */,
+				F8DF1079E1484E16ACF88023 /* noop-file.swift */,
+				F226B712F6134A35A323FBF7 /* ReactNativewithExpoonCodeSandbox-Bridging-Header.h */,
 			);
 			name = ReactNativewithExpoonCodeSandbox;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				25C19CA09E5C48EFB3C2A2E8 /* ReactNativewithExpoonCodeSandbox-Bridging-Header.h in Resources */,
+				F46E292AA305457EB16DE3AC /* ReactNativewithExpoonCodeSandbox-Bridging-Header.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				0922F3BB66444E49B2FDB7F9 /* noop-file.swift in Sources */,
+				0398AD60B3614B46BB9539D5 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
